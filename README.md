@@ -1,4 +1,4 @@
-**演示地址：** https://lovecode20192019.github.io/admin-ui
+**Demo：** https://lovecode20192019.github.io/admin-ui
 
 ## 编译步骤
 
@@ -41,8 +41,9 @@ serve -s dist
 
 - [element ui组件库](https://element.eleme.cn/#/zh-CN)
 
-## License
+## 开源
 
 [MIT] license.
 
+**（10）freedom**
 
