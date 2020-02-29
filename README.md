@@ -1,80 +1,30 @@
-# vue-admin-template
+**演示** https://lovecode20192019.github.io/admin-ui
 
-English | [简体中文](./README-zh.md)
+## 编译步骤
 
-> A minimal vue admin template with Element UI & axios & iconfont & permission control & lint
+# 下载项目源码
+git clone https://github.com/lovecode20192019/admin-ui-src.git
 
-**Live demo:** http://panjiachen.github.io/vue-admin-template
+# 进入项目目录
+cd admin-ui-src
 
+# 安装依赖，注意：请先安装node.js,因为所有的依赖包都需通过npm自动下载，
+# 下载完成后会在项目的根目录下生成一个node_modules的文件下，为了加速下载，这里用的taobao上的包仓库
+npm install --registry=https://registry.npm.taobao.org
 
-**The current version is `v4.0+` build on `vue-cli`. If you want to use the old version , you can switch branch to [tag/3.11.0](https://github.com/PanJiaChen/vue-admin-template/tree/tag/3.11.0), it does not rely on `vue-cli`**
+# 因为项目是基于VUE的，所以编译、发布项目的时候需要VUE CLI这个组件，请通过下面命令安装：
+npm install -g @vue/cli
 
-## Build Setup
+# 上面包安装好后，通过vue ui来编译项目，cd切换到项目的文件夹下，运行如下命令启动一个可视化的界面来编译、发布项目
+vue ui
+这个ui界面是vue官方提供，从这里可以看到项目的一些基本情况，你还以可以直接通过这个ui界面创建基于vue的新项目
+# 项目pubish后，会在项目文件夹下生成一个dist的文件夹，这个文件夹的内容就是我们最终需要部署到web站点的一些静态文件，如css，js，html
 
+# 修改代码只需要关注src这个文件夹下的内容
 
-```bash
-# clone the project
-git clone https://github.com/PanJiaChen/vue-admin-template.git
+## 下面是参考项目，有些成熟的组件可以直接拿来用
 
-# enter the project directory
-cd vue-admin-template
-
-# install dependency
-npm install
-
-# develop
-npm run dev
-```
-
-This will automatically open http://localhost:9528
-
-## Build
-
-```bash
-# build for test environment
-npm run build:stage
-
-# build for production environment
-npm run build:prod
-```
-
-## Advanced
-
-```bash
-# preview the release environment effect
-npm run preview
-
-# preview the release environment effect + static resource analysis
-npm run preview -- --report
-
-# code format check
-npm run lint
-
-# code format check and auto fix
-npm run lint -- --fix
-```
-
-Refer to [Documentation](https://panjiachen.github.io/vue-element-admin-site/guide/essentials/deploy.html) for more information
-
-## Demo
-
-![demo](https://github.com/PanJiaChen/PanJiaChen.github.io/blob/master/images/demo.gif)
-
-## Extra
-
-If you want router permission && generate menu by user roles , you can use this branch [permission-control](https://github.com/PanJiaChen/vue-admin-template/tree/permission-control)
-
-For `typescript` version, you can use [vue-typescript-admin-template](https://github.com/Armour/vue-typescript-admin-template) (Credits: [@Armour](https://github.com/Armour))
-
-## Related Project
-
-- [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
-
-- [electron-vue-admin](https://github.com/PanJiaChen/electron-vue-admin)
-
-- [vue-typescript-admin-template](https://github.com/Armour/vue-typescript-admin-template)
-
-- [awesome-project](https://github.com/PanJiaChen/vue-element-admin/issues/2312)
+- [element ui组件库](https://element.eleme.cn/#/zh-CN)
 
 ## Browsers support
 
@@ -86,6 +36,6 @@ Modern browsers and Internet Explorer 10+.
 
 ## License
 
-[MIT](https://github.com/PanJiaChen/vue-admin-template/blob/master/LICENSE) license.
+[MIT] license.
 
-Copyright (c) 2017-present PanJiaChen
+
