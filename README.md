@@ -9,7 +9,9 @@ git clone https://github.com/lovecode20192019/admin-ui-src.git
 cd admin-ui-src
 
 **安装依赖，注意：请先安装node.js,因为所有的依赖包都需通过npm自动下载**
+
 **下载完成后会在项目的根目录下生成一个node_modules的文件下，为了加速下载，这里用的taobao上的包仓库**
+
 npm install --registry=https://registry.npm.taobao.org
 
 **因为项目是基于VUE的，所以编译、发布项目的时候需要VUE CLI这个组件，请通过下面命令安装**
