@@ -2,7 +2,7 @@
 
 ## 编译步骤
 
-# 下载项目源码
+**下载项目源码**
 git clone https://github.com/lovecode20192019/admin-ui-src.git
 
 # 进入项目目录
